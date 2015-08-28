@@ -1,5 +1,7 @@
 FROM scratch
 
+ENV GOPATH=/app
+
 COPY dockerui /
 COPY dist /
 
